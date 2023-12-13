@@ -1,0 +1,26 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.kaamelot-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+
+    font-size: 1.6em;
+}
+
+.quote-container {
+    width: 100%;
+    font-size: 2em;
+}
