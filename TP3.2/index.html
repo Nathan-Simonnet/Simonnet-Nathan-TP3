@@ -10,15 +10,15 @@
 </head>
 
 <body>
-    <div class="departements-container">
-        <select id="gender">
-            <!-- Creer un onglet déroulant, avec l'id pour connecter au label -->
-            <option value="occitanie">occitanie</option>
-            <!-- première option possible "homme", avec une value qui sert à que dalle ici mais enfin le jour ou y à besoin tu seras content -->
-            <option value="nouvelle-aquitaine" selected>nouvelle-aquitaine</option>
-
-        </select>
-        <div class="quote-container">
+    <div class="container">
+        <label for="regions-selector">Regions<select id="regions-selector">
+            </select></label>
+        <label for="departements-selector">Departements
+            <select id="departements-selector">
+            </select>
+        </label>
+        <div class="city-container">
+            <button>Afficher les villes</button>
         </div>
     </div>
     <script src='index.js'></script>

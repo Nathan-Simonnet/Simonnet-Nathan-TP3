@@ -1,0 +1,26 @@
+* {
+    padding: 6px;
+    margin: 6px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label,
+select,
+button {
+    font-size: 30px;
+}
+
+
+.city-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
