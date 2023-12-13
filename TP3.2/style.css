@@ -11,6 +11,16 @@ body {
 
 }
 
+.container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 label,
 select,
 button {
@@ -18,9 +28,20 @@ button {
 }
 
 
-.city-container {
+.city-and-btn-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
+}
+
+.city-container {
+    width: 90%;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
     align-items: center;
 
 }
